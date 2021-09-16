@@ -5,7 +5,7 @@ This is a CLI app, basically a quiz named **How well you know Harshith Badiga** 
 ### Packages Used
 
 * readline-sync
-* chalk
+
 
 ### Get the latest version of the project:
 
