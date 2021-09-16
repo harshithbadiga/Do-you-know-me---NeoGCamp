@@ -31,12 +31,21 @@ var questions = [{
 },{
   question:"Where am I studying?",
   answer: "mit"
+},{
+  question:"How old am I?",
+  answer:"19"
+},{
+  question: "What is my favourite food?",
+  answer: "pasta"
+},{
+  question: "what is favourite color?",
+  answer: "blue"
 }];
 
 for (var i=0; i <questions.length; i++){
   var currentQuestion = questions[i]
   play(currentQuestion.question,currentQuestion.answer)
-  console.log("Your final score is:",score)
+
 
 }
 showScores();
